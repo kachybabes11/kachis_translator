@@ -36,7 +36,7 @@ export default function App() {
   
     try {
       // Send POST request to the Flask backend with translation parameters
-      const res = await fetch("https://bilingual-backend-eca.onrender.com/translate", {
+      const res = await fetch("https://kachis-translator-backend.onrender.com/translate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json", // Tell backend we're sending JSON
